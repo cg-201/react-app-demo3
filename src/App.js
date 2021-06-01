@@ -13,7 +13,7 @@ function App() {
           <Card key={item}>
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey={index + 1}>
-                Click me!
+                Vechile {index + 1}
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey={index + 1}>
